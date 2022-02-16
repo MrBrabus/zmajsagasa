@@ -11,7 +11,6 @@
 		<div class="center_icon"><img alt="Personalizovane knjige za decu - Zmajsa Gasa - Zmaj" src="img/content/17.png"></div>
 	</section>
 	<section>
-		`
 		<div class="container">
 			<div class="row">
 				<div class="col text-center content-img"><img alt="Napravi svog glavnog junaka" class="preview-book text-center" src="img/content/box-6-sr.png"></div>
@@ -59,6 +58,5 @@
 				</div>
 			</div>
 		</div>
-	</section><?php require_once('footer.php'); ?>
-</body>
-</html>
+	</section>
+	<?php require_once('footer.php'); ?>
