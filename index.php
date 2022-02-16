@@ -7,7 +7,8 @@
 <body>
 	<section class="hero">
 		<h1 class="hero_heading">Personalizovane knjige<br>
-		<span class="hero_heading-cild">za decu</span></h1>
+		<span class="hero_heading-cild">Za decu</span>
+	   </h1>
 		<div class="center_icon"><img alt="Personalizovane knjige za decu - Zmajsa Gasa - Zmaj" src="img/content/17.png"></div>
 	</section>
 	<section>
@@ -59,4 +60,26 @@
 			</div>
 		</div>
 	</section>
+	<section class="how-to container-fluid">
+       <h3>Kako se personalizuje i poručuje knjiga?</h3>
+	   <div class="book-section row">
+		   <div class="book-group col">
+		       <img src="img/content/plocica1.png">
+		       <p>Korak 1</p>
+		   </div>
+		   <div class="book-group col">
+		       <img src="img/content/plocica2.png">
+		       <p>Korak 2</p>
+		   </div>
+		   <div class="book-group col">
+		       <img src="img/content/plocica3.png">
+		       <p>Korak 3</p>
+		   </div>
+		   <div class="book-group col">
+		       <img src="img/content/plocica4.png">
+		       <p>Korak 4</p>
+		   </div>
+	   </div>
+	</section>
+	<section class="zmaj-pcele"></section>
 	<?php require_once('footer.php'); ?>
