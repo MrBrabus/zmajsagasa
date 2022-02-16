@@ -1,0 +1,370 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url("https://use.typekit.net/thf2ewz.css");
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+::-webkit-scrollbar {
+	width: 10px;
+}
+::-webkit-scrollbar-track {
+	background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+	background: #888;
+}
+::selection{
+	background: rgb(0,123,255,0.3);
+}
+.content-main{
+	max-width: 1250px;
+	margin: auto;
+	padding: 0 30px;
+}
+.navbar-main{
+	position: fixed;
+	width: 100%;
+	z-index: 2;
+	padding: 25px 0;
+	transition: all 0.3s ease;
+}
+.navbar-main.sticky{
+	background: #1b1b1b;
+	padding: 10px 0;
+	align-items: center;
+	justify-content: center;
+	margin: 0 auto;
+	box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.1);
+}
+.navbar-main.sticky img{
+	width: 100px;
+}
+.navbar-main.sticky li{
+	margin-top: 15px;
+}
+.navbar-main .content-main{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.logo-main img{
+	width: 170px;
+}
+.navbar-main .menu-list{
+	display: inline-flex;
+}
+.menu-list li{
+	list-style: none;
+}
+.menu-list li a{
+	color: #fff;
+	font-size: 18px;
+	font-weight: 500;
+	margin-left: 25px;
+	text-decoration: none;
+	transition: all 0.3s ease;
+}
+.menu-list li a:hover{
+	color: #007bff;
+}
+.icon-main{
+	color: #fff;
+	font-size: 20px;
+	cursor: pointer;
+	display: none;
+}
+.menu-list .cancel-btn-main{
+	position: absolute;
+	right: 30px;
+	top: 20px;
+}
+@media (max-width: 1950px) {
+	.hero{
+		background-image: url("../img/content/hero.png");
+		height: 1968px;
+		width: 100%;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	.dragon-fire{
+		background-image: url("../img/content/section2.png");
+		width: 100%;
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 1686px;
+	}
+}
+@media (max-width: 1400px) {
+	.hero{
+		background-image: url("../img/content/hero.png");
+		height: 1050px;
+		width: 100%;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	.dragon-fire{
+		background-image: url("../img/content/section2.png");
+		height: 1100px !important;
+	}
+	.price-card1{
+		max-width: 40%;
+	}
+	.price-card2{
+		max-width: 40%;
+	}
+	.price-image1{
+		width: 345px !important;
+		height: 325px !important;
+	}
+	.price-image2{
+		width: 345px !important;
+		height: 325px !important;
+	}
+	.hero_heading {
+		font-size: 80px !important;
+		padding-top: 230px !important;
+		padding-left: 110px !important;
+	}
+	.center_icon img {
+		width: 900px !important;
+		margin-top: 125px !important;
+		position: absolute;
+		margin-left: 20% !important;
+	}
+}
+@media (max-width: 1230px) {
+	.content-main{
+		padding: 0 60px;
+	}
+}
+@media (max-width: 1100px) {
+	.content-main{
+		padding: 0 40px;
+	}
+}
+@media (max-width: 900px) {
+	.content-main{
+		padding: 0 30px;
+	}
+	.center_icon img {
+		width: 790px !important;
+		margin-top: 100px !important;
+		position: absolute;
+		margin-left: 15% !important;
+	}
+}
+@media (max-width: 868px) {
+	body .disabled{
+		overflow: hidden;
+	}
+	.dragon-fire{
+		background-image: url("../img/content/section2-mob.png");
+		width: 100%;
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 750px !important;
+	}
+	.icon-main{
+		display: block;
+	}
+	.icon-main .hide{
+		display: none;
+	}
+	.navbar-main .menu-list{
+		position: fixed;
+		height: 100vh;
+		width: 100%;
+		max-width: 400px;
+		left: -100%;
+		top: 0px;
+		display: block;
+		padding: 40px 0;
+		text-align: center;
+		background: #222;
+		transition: all 0.3s ease;
+	}
+	.navbar-main.show .menu-list{
+		left: 0%;
+	}
+	.navbar-main .menu-list li{
+		margin-top: 45px;
+	}
+	.navbar-main .menu-list li a{
+		font-size: 23px;
+		margin-left: -100%;
+		transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+	}
+	.navbar-main.show .menu-list li a{
+		margin-left: 0px;
+	}
+	.center_icon img {
+		width: 400px !important;
+		margin-top: 0px !important;
+		position: absolute;
+		margin-left: 10% !important;
+	}
+	.preview-book{
+		max-width: 400px;
+	}
+	.hero_heading {
+		font-size: 32px !important;
+		padding-top: 253px !important;
+		padding-left: 20px !important;
+	}
+	.hero{
+		background-image: url("../img/content/header-mobile-Personalizovane-knjige-za-decu.png");
+		height: 600px;
+		width: 450px;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	.price-card1{
+		margin: 0 !important;
+		max-width: 100% !important;
+	}
+	.price-card2{
+		margin: 0 !important;
+		max-width: 100% !important;
+	}
+	.logo-main img{
+		width: 125px;
+	}
+	.price-image1{
+		width: 288px !important;
+		height: 270px !important;
+	}
+	.price-image2{
+		width: 288px !important;
+		height: 270px !important;
+	}
+	.age-price button{
+		float: none !important;
+	}
+	.age-price p{
+		margin-top: 10px;
+		float: none !important;
+	}
+}
+@media (max-width: 380px) {
+}
+.center_icon img{
+	width: 1300px;
+	margin-top: 513px;
+	position: absolute;
+	margin-left: 25%;
+}
+.hero_heading{
+	font-family: cardo, serif;
+	font-weight: 700;
+	font-style: normal;
+	color: #eee;
+	font-size: 100px;
+	padding-left: 200px;
+	padding-top: 497px;
+}
+.hero_heading-cild{
+	color: #FFD159;
+}
+.brid-img{
+	width: 100px;
+	margin: auto;
+	display: block;
+}
+.preview-book{
+	width: 700px;
+	margin: auto;
+}
+.content-img{
+	margin: auto;
+}
+.content-brid{
+	margin: auto;
+}
+.content-brid h3{
+	font-size: 35px;
+	font-size: 35px;
+	color: #48b9e8;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+	padding-bottom: 25px;
+}
+.content-brid p{
+	font-family: 'Poppins', sans-serif;
+	font-size: 17px;
+	color: #000000a1;
+}
+.content-brid button{
+	background-color: #D20084;
+	padding: 9px 40px;
+	color: #FFD159;
+	margin-top: 30px;
+	font-size: 20px;
+	font-weight: 400;
+	text-align: justify;
+	text-justify: inter-word;
+	border: none;
+}
+.price-card-sec{
+	margin: 30px;
+}
+.price-card1{
+	text-align: center;
+	background: linear-gradient(0deg, #F0F7FF 70%, #fff0f000 50%);
+	padding: 30px;
+	margin: 65px;
+}
+.price-card2{
+	text-align: center;
+	background: linear-gradient(0deg, #fcf2f8 70%, #fff0f000 50%);
+	padding: 30px;
+	margin: 65px;
+}
+.price-image1{
+	background-image: url("../img/content/lazar-i-sofija.png");
+	width: 470px;
+	height: 438px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+}
+.price-image2{
+	background-image: url("../img/content/nikola.png");
+	width: 470px;
+	height: 438px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+}
+.text-card h3{
+	color: #48b9e8;
+	font-weight: 300;
+	margin-top: 30px;
+}
+.text-card p{
+	margin-top: 40px;
+	text-align: justify;
+}
+.age-price{
+	margin-top: 40px;
+}
+.age-price button{
+	background-color: #3EB6F1;
+	color: #fff;
+	padding: 5px 30px;
+	border-radius: 30px;
+	border: none;
+	float: left;
+	transition: ease-out 0.7s;
+}
+.age-price button:hover{
+	box-shadow: inset 300px 0 0 0 #e41616;
+	;
+}
+.age-price p{
+	float: right;
+}
+.age-price span{
+	font-weight: bold;
+}
