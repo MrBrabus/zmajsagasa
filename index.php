@@ -59,15 +59,6 @@
 				</div>
 			</div>
 		</div>
-	</section><?php require_once('footer.php'); ?><!-- <div class="price-card col">
-        <div class="price-image"></div>
-        <div class="text-card">
-			tttetetetetet
-            <h3>Naslov knjige broj jedan</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Autem quo sapiente totam, vitae aperiam inventore expedita facere <br> blanditiis doloremque distinctio tenetur dignissimos sit.</p>
-        </div> oipwefrpwjjfwpej
-        <button>NAPRAVI KNJIGU</button>
-        <div class="age-price"></div>
-    </div> -->
+	</section><?php require_once('footer.php'); ?>
 </body>
 </html>
