@@ -1,4 +1,10 @@
-<?php $currentPage = 'Početna'; ?><?php require_once('head.php'); ?><?php require_once('header.php'); ?>
+<?php 
+$currentPage = 'Presonalizovane knjige za decu | Zmajša Gaša';
+$description = "Presonalizovane knjige za decu, napravite knjigu u kojoj je vaše dete glavni lik. Obradujte svoje mališane knjigom u kojoj pronalaze svoje ime i lik u čudesnim avanturama.";
+$keywords = "Knjige za decu, Personalizovane knjige, Personalizovane knjige za decu";
+require_once('head.php');
+require_once('header.php'); 
+?>
 <!DOCTYPE html>
 <html>
 <head>
