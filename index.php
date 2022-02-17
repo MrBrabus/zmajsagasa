@@ -82,4 +82,9 @@
 	   </div>
 	</section>
 	<section class="zmaj-pcele"></section>
+	<section class="means container-fluid">
+	    <h3>Značaj za male i velike?</h3>
+		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>
+		Optio cupiditate dolor iusto maiores dignissimos odio deserunt, ratione laborum soluta eos.<br>	
+	</section>
 	<?php require_once('footer.php'); ?>
