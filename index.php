@@ -87,7 +87,9 @@ require_once('header.php');
 		   </div>
 	   </div>
 	</section>
-	<section class="zmaj-pcele"></section>
+	<section>
+		<img class="zmaj-pcele" src="img/content/zmaj-pcele.png">
+	</section>
 	<section class="means container-fluid">
 	    <h3>Značaj za male i velike?</h3>
 		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>

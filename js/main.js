@@ -18,3 +18,19 @@ cancelBtn.onclick = ()=>{
 window.onscroll = ()=>{
   this.scrollY > 20 ? navbar.classList.add("sticky") : navbar.classList.remove("sticky");
 }
+
+// window.addEventListener('scroll', function(){
+//   const parallax = this.document.querySelector('.hero');
+//   let scrollPosition = window.pageYOffset;
+
+//   parallax.style.transform = 'translateY(' + scrollPosition * .1 + 'px)';
+  
+// });
+
+// window.addEventListener('scroll', function(){
+//   const parallax = this.document.querySelector('.dragon-fire');
+//   let scrollPosition = window.pageYOffset;
+
+//   parallax.style.transform = 'translateY(' + scrollPosition * .1 + 'px)';
+  
+// });
