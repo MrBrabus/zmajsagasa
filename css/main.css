@@ -31,8 +31,8 @@
 	transition: all 0.3s ease;
 }
 .navbar-main.sticky{
-	background: #1b1b1b;
-	padding: 10px 0;
+	background: #1b1b1be0;
+	padding: 0;
 	align-items: center;
 	justify-content: center;
 	margin: 0 auto;
