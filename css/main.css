@@ -55,20 +55,46 @@
 .navbar-main .menu-list{
 	display: inline-flex;
 }
+
+.menu-list{
+	background-color: #00000017;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
 .menu-list li{
 	list-style: none;
 }
 .menu-list li a{
-	color: #fff;
-	font-size: 18px;
+	font-family: 'Poppins', sans-serif;
+	color: transparent;
+	line-height: 1.2em;
+	letter-spacing: 2px;
+	font-size: 25px;
 	font-weight: 500;
 	margin-left: 25px;
 	text-decoration: none;
-	transition: all 0.3s ease;
+	-webkit-text-stroke: 1px rgba(255,255,255,0.5);
+	position: relative;
 }
-.menu-list li a:hover{
-	color: #007bff;
+
+.menu-list li a::before{
+	content: attr(data-text);
+	position: absolute;
+	color: var(--clr);
+	width: 0;
+	overflow: hidden;
+	transition: 1s;
+	border-right: 5px solid var(--clr);
+	-webkit-text-stroke: 1px var(--clr);
 }
+
+.menu-list li a:hover::before{
+width: 100%;
+filter: drop-shadow(5px 5px 5px var(--clr));
+}
+
 .icon-main{
 	color: #fff;
 	font-size: 20px;
@@ -119,6 +145,10 @@
 	.dragon-fire{
 		background-image: url("../img/content/section2.png");
 		height: 1100px !important;
+	}
+
+	.menu-list li a{
+		font-size: 20px;
 	}
 	.price-card1{
 		max-width: 40%;

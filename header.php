@@ -8,11 +8,11 @@
         <div class="icon-main cancel-btn-main">
           <i class="fas fa-times"></i>
         </div>
-        <li class="<?php echo (basename($_SERVER['PHP_SELF']) == "index.php") ? "active" : "" ?>"><a href="index.php">POČETNA</a></li>
-        <li class="<?php echo (basename($_SERVER['PHP_SELF']) == "about.php") ? "active" : "" ?>"><a href="about-us.php">O NAMA</a></li>
-        <li class="<?php echo (basename($_SERVER['PHP_SELF']) == "choose.php") ? "active" : "" ?>"><a href="choose.php">IZABERI KNJIGU</a></li>
-        <li class="<?php echo (basename($_SERVER['PHP_SELF']) == "faq.php") ? "active" : "" ?>"><a href="faq.php">NAJČEŠĆA PITANJA</a></li>
-        <li class="<?php echo (basename($_SERVER['PHP_SELF']) == "contact.php") ? "active" : "" ?>"><a href="contact.php">KONTAKT</a></li>
+        <li style="--clr:#00ade1" class="<?php echo (basename($_SERVER['PHP_SELF']) == "index.php") ? "active" : "" ?>"><a href="index.php" data-text="&nbsp;POČETNA">&nbsp;POČETNA&nbsp;</a></li>
+        <li style="--clr:#ff6493" class="<?php echo (basename($_SERVER['PHP_SELF']) == "about.php") ? "active" : "" ?>"><a href="about-us.php" data-text="&nbsp;O&nbsp;NAMA">&nbsp;O&nbsp;NAMA&nbsp;</a></li>
+        <li style="--clr:#ffdd1c" class="<?php echo (basename($_SERVER['PHP_SELF']) == "choose.php") ? "active" : "" ?>"><a href="choose.php" data-text="&nbsp;IZABERI&nbsp;KNJIGU">&nbsp;IZABERI&nbsp;KNJIGU&nbsp;</a></li>
+        <li style="--clr:#00dc82" class="<?php echo (basename($_SERVER['PHP_SELF']) == "faq.php") ? "active" : "" ?>"><a href="faq.php" data-text="&nbsp;NAJČEŠĆA&nbsp;PITANJA">&nbsp;NAJČEŠĆA&nbsp;PITANJA&nbsp;</a></li>
+        <li style="--clr:#ff9901" class="<?php echo (basename($_SERVER['PHP_SELF']) == "contact.php") ? "active" : "" ?>"><a href="contact.php" data-text="&nbsp;KONTAKT">&nbsp;KONTAKT&nbsp;</a></li>
       </ul>
       <div class="icon-main menu-btn-main">
         <i class="fas fa-bars"></i>
