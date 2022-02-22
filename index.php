@@ -87,12 +87,20 @@ require_once('header.php');
 		   </div>
 	   </div>
 	</section>
-	<section>
-		<img class="zmaj-pcele" src="img/content/zmaj-pcele.png">
+	<section class="parallax">
+      <img src="img/content/sec1/zmaj.png" data-speed="1.5" class="layer">
+	  <img src="img/content/sec1/leptir.png" data-speed="1" class="layer">
+	  <img src="img/content/sec1/pcela1.png" data-speed="2" class="layer">
+	  <img src="img/content/sec1/pcela2.png" data-speed="1.5" class="layer">
+	  <img src="img/content/sec1/pcela3.png" data-speed="0.5" class="layer">
+	  <img src="img/content/sec1/pcela4.png" data-speed="1" class="layer">
 	</section>
 	<section class="means container-fluid">
 	    <h3>Značaj za male i velike?</h3>
 		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>
 		Optio cupiditate dolor iusto maiores dignissimos odio deserunt, ratione laborum soluta eos.<br>	
 	</section>
+
 	<?php require_once('footer.php'); ?>
+
+

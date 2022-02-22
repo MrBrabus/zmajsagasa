@@ -19,18 +19,14 @@ window.onscroll = ()=>{
   this.scrollY > 20 ? navbar.classList.add("sticky") : navbar.classList.remove("sticky");
 }
 
-// window.addEventListener('scroll', function(){
-//   const parallax = this.document.querySelector('.hero');
-//   let scrollPosition = window.pageYOffset;
+document.addEventListener("mousemove", parallax);
+function parallax(e){
+    this.querySelectorAll('.layer').forEach(layer => {
+        const speed = layer.getAttribute('data-speed')
 
-//   parallax.style.transform = 'translateY(' + scrollPosition * .1 + 'px)';
-  
-// });
-
-// window.addEventListener('scroll', function(){
-//   const parallax = this.document.querySelector('.dragon-fire');
-//   let scrollPosition = window.pageYOffset;
-
-//   parallax.style.transform = 'translateY(' + scrollPosition * .1 + 'px)';
-  
-// });
+        const x = (window.innerWidth - e.pageX*speed)/100
+        const y = (window.innerHeight - e.pageY*speed)/100
+        layer.style.transform = `translateX(${x}px) translateY(${y}px)`
+        
+    });
+}
