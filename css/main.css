@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 @import url("https://use.typekit.net/thf2ewz.css");
+@font-face {
+	font-family: 'lucku-dip';
+	src: URL('../font/LuckyDipCaitlin.ttf') format('truetype');
+  }
 *{
 	margin: 0;
 	padding: 0;
@@ -225,6 +229,9 @@ filter: drop-shadow(5px 5px 5px var(--clr));
 	body .disabled{
 		overflow: hidden;
 	}
+	.hero_heading-cild{
+		font-size: 100px !important;
+	}
 	.dragon-fire{
 		background-image: url("../img/content/section2-mob.png");
 		width: 100%;
@@ -267,7 +274,7 @@ filter: drop-shadow(5px 5px 5px var(--clr));
 	}
 	.center_icon img {
 		width: 400px !important;
-		margin-top: 0px !important;
+		margin-top: -55px !important;
 		position: absolute;
 		margin-left: 10% !important;
 	}
@@ -342,7 +349,7 @@ filter: drop-shadow(5px 5px 5px var(--clr));
 }
 .center_icon img{
 	width: 1300px;
-	margin-top: 513px;
+	margin-top: 300px;
 	position: absolute;
 	margin-left: 25%;
 }
@@ -358,6 +365,9 @@ filter: drop-shadow(5px 5px 5px var(--clr));
 
 .hero_heading-cild{
 	color: #FFD159;
+	font-family: lucku-dip;
+	font-weight: 400;
+    font-size: 200px;
 }
 .brid-img{
 	width: 100px;
@@ -562,3 +572,4 @@ filter: drop-shadow(5px 5px 5px var(--clr));
 	height: 776px;
 	object-fit: cover;
 }
+
