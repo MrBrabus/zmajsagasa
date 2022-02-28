@@ -3,8 +3,8 @@
 @font-face {
 	font-family: 'lucku-dip';
 	src: URL('../font/LuckyDipCaitlin.ttf') format('truetype');
-  }
-*{
+}
+* {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
@@ -19,58 +19,56 @@
 ::-webkit-scrollbar-thumb {
 	background: #888;
 }
-::selection{
-	background: rgb(0,123,255,0.3);
+::selection {
+	background: rgb(0, 123, 255, 0.3);
 }
-.content-main{
+.content-main {
 	max-width: 1250px;
 	margin: auto;
 	padding: 0 30px;
 }
-.navbar-main{
+.navbar-main {
 	position: fixed;
 	width: 100%;
 	z-index: 2;
 	padding: 25px 0;
 	transition: all 0.3s ease;
 }
-.navbar-main.sticky{
+.navbar-main.sticky {
 	background: #1b1b1be0;
 	padding: 0;
 	align-items: center;
 	justify-content: center;
 	margin: 0 auto;
-	box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.1);
+	box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.1);
 }
-.navbar-main.sticky img{
+.navbar-main.sticky img {
 	width: 100px;
 }
-.navbar-main.sticky li{
+.navbar-main.sticky li {
 	margin-top: 15px;
 }
-.navbar-main .content-main{
+.navbar-main .content-main {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 }
-.logo-main img{
+.logo-main img {
 	width: 170px;
 }
-.navbar-main .menu-list{
+.navbar-main .menu-list {
 	display: inline-flex;
 }
-
-.menu-list{
+.menu-list {
 	background-color: #00000017;
-    padding: 10px;
-    border-radius: 10px;
-    margin-left: 20px;
+	padding: 10px;
+	border-radius: 10px;
+	margin-left: 20px;
 }
-
-.menu-list li{
+.menu-list li {
 	list-style: none;
 }
-.menu-list li a{
+.menu-list li a {
 	font-family: 'Poppins', sans-serif;
 	color: transparent;
 	line-height: 1.2em;
@@ -79,11 +77,10 @@
 	font-weight: 500;
 	margin-left: 25px;
 	text-decoration: none;
-	-webkit-text-stroke: 1px rgba(255,255,255,0.5);
+	-webkit-text-stroke: 1px rgba(255, 255, 255, 0.5);
 	position: relative;
 }
-
-.menu-list li a::before{
+.menu-list li a::before {
 	content: attr(data-text);
 	position: absolute;
 	color: var(--clr);
@@ -93,91 +90,84 @@
 	border-right: 5px solid var(--clr);
 	-webkit-text-stroke: 1px var(--clr);
 }
-
-.menu-list li a:hover::before{
-width: 100%;
-filter: drop-shadow(5px 5px 5px var(--clr));
+.menu-list li a:hover::before {
+	width: 100%;
+	filter: drop-shadow(5px 5px 5px var(--clr));
 }
-
-.icon-main{
+.icon-main {
 	color: #fff;
 	font-size: 20px;
 	cursor: pointer;
 	display: none;
 }
-.menu-list .cancel-btn-main{
+.menu-list .cancel-btn-main {
 	position: absolute;
 	right: 30px;
 	top: 20px;
 }
 @media (max-width: 1950px) {
-	.hero{
+	.hero {
 		background-image: url("../img/content/hero.png");
 		height: 1968px;
 		width: 100%;
 		background-repeat: no-repeat;
 		background-size: cover;
 	}
-	.dragon-fire{
+	.dragon-fire {
 		background-image: url("../img/content/section2.png");
 		width: 100%;
 		background-repeat: no-repeat;
 		background-size: cover;
 		height: 1686px;
 	}
-
-	.price-image1:hover{
+	.price-image1:hover {
 		transition: ease-out 0.3s;
 		width: 420px;
 		height: 390px;
 	}
-
-	.price-image2:hover{
+	.price-image2:hover {
 		transition: ease-out 0.3s;
 		width: 420px;
 		height: 390px;
 	}
 }
 @media (max-width: 1400px) {
-	.hero{
+	.hero {
 		background-image: url("../img/content/hero.png");
 		height: 1050px;
 		width: 100%;
 		background-repeat: no-repeat;
 		background-size: cover;
 	}
-	.dragon-fire{
+	.dragon-fire {
 		background-image: url("../img/content/section2.png");
 		height: 1100px !important;
 	}
-
-	.menu-list li a{
+	.menu-list li a {
 		font-size: 20px;
 	}
-	.price-card1{
+	.price-card1 {
 		max-width: 40%;
 	}
-	.price-card2{
+	.price-card2 {
 		max-width: 40%;
 	}
-	.price-image1{
+	.price-image1 {
 		width: 345px !important;
 		height: 325px !important;
 		transition: ease-out 0.3s;
 	}
-	.price-image2{
+	.price-image2 {
 		width: 345px !important;
 		height: 325px !important;
 		transition: ease-out 0.3s;
 	}
-
-	.price-image1:hover{
+	.price-image1:hover {
 		transition: ease-out 0.3s;
 		width: 330px !important;
 		height: 300px !important;
 	}
-
-	.price-image2:hover{
+	.price-image2:hover {
 		transition: ease-out 0.3s;
 		width: 330px !important;
 		height: 300px !important;
@@ -193,29 +183,25 @@ filter: drop-shadow(5px 5px 5px var(--clr));
 		position: absolute;
 		margin-left: 20% !important;
 	}
-	.book-group img{
+	.book-group img {
 		width: 280px !important;
 		height: 280px !important;
 	}
-
-	.how-to{
+	.how-to {
 		height: 730px !important;
-	}
-
-
-}
+	}}
 @media (max-width: 1230px) {
-	.content-main{
+	.content-main {
 		padding: 0 60px;
 	}
 }
 @media (max-width: 1100px) {
-	.content-main{
+	.content-main {
 		padding: 0 40px;
 	}
 }
 @media (max-width: 900px) {
-	.content-main{
+	.content-main {
 		padding: 0 30px;
 	}
 	.center_icon img {
@@ -226,26 +212,26 @@ filter: drop-shadow(5px 5px 5px var(--clr));
 	}
 }
 @media (max-width: 868px) {
-	body .disabled{
+	body .disabled {
 		overflow: hidden;
 	}
-	.hero_heading-cild{
+	.hero_heading-cild {
 		font-size: 100px !important;
 	}
-	.dragon-fire{
+	.dragon-fire {
 		background-image: url("../img/content/section2-mob.png");
 		width: 100%;
 		background-repeat: no-repeat;
 		background-size: cover;
 		height: 750px !important;
 	}
-	.icon-main{
+	.icon-main {
 		display: block;
 	}
-	.icon-main .hide{
+	.icon-main .hide {
 		display: none;
 	}
-	.navbar-main .menu-list{
+	.navbar-main .menu-list {
 		position: fixed;
 		height: 100vh;
 		width: 100%;
@@ -258,18 +244,18 @@ filter: drop-shadow(5px 5px 5px var(--clr));
 		background: #222;
 		transition: all 0.3s ease;
 	}
-	.navbar-main.show .menu-list{
+	.navbar-main.show .menu-list {
 		left: 0%;
 	}
-	.navbar-main .menu-list li{
+	.navbar-main .menu-list li {
 		margin-top: 45px;
 	}
-	.navbar-main .menu-list li a{
+	.navbar-main .menu-list li a {
 		font-size: 23px;
 		margin-left: -100%;
 		transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 	}
-	.navbar-main.show .menu-list li a{
+	.navbar-main.show .menu-list li a {
 		margin-left: 0px;
 	}
 	.center_icon img {
@@ -278,7 +264,7 @@ filter: drop-shadow(5px 5px 5px var(--clr));
 		position: absolute;
 		margin-left: 10% !important;
 	}
-	.preview-book{
+	.preview-book {
 		max-width: 400px;
 	}
 	.hero_heading {
@@ -286,58 +272,54 @@ filter: drop-shadow(5px 5px 5px var(--clr));
 		padding-top: 253px !important;
 		padding-left: 20px !important;
 	}
-	.hero{
+	.hero {
 		background-image: url("../img/content/header-mobile-Personalizovane-knjige-za-decu.png");
 		height: 600px;
 		width: 450px;
 		background-repeat: no-repeat;
 		background-size: cover;
 	}
-	.price-card1{
+	.price-card1 {
 		margin: 0 !important;
 		max-width: 100% !important;
 	}
-	.price-card2{
+	.price-card2 {
 		margin: 0 !important;
 		max-width: 100% !important;
 	}
-	.logo-main img{
+	.logo-main img {
 		width: 125px;
 	}
-	.price-image1{
+	.price-image1 {
 		width: 288px !important;
 		height: 270px !important;
 	}
-	.price-image2{
+	.price-image2 {
 		width: 288px !important;
 		height: 270px !important;
 	}
-	.age-price button{
+	.age-price button {
 		float: none !important;
 	}
-	.age-price p{
+	.age-price p {
 		margin-top: 10px;
 		float: none !important;
 	}
-
-	.how-to{
+	.how-to {
 		background-image: url("../img/content/pozadina-mobile.png") !important;
 		height: 100% !important;
 	}
-
-	.zmaj-pcele{
+	.zmaj-pcele {
 		background-image: url("../img/content/pcele-zmaj-mobile.png") !important;
 		height: 815px !important;
 	}
-	.img-left{
-        display: none;
+	.img-left {
+		display: none;
 	}
-	
-	.img-right{
-        display: none;
+	.img-right {
+		display: none;
 	}
-
-	.footer{
+	.footer {
 		background-image: url("../img/content/footer-bck-mobile.png");
 		background-size: cover;
 		background-repeat: no-repeat;
@@ -345,9 +327,8 @@ filter: drop-shadow(5px 5px 5px var(--clr));
 		width: 100%;
 	}
 }
-@media (max-width: 380px) {
-}
-.center_icon img{
+@media (max-width: 380px) {}
+.center_icon img {
 	width: 1300px;
 	margin-top: 300px;
 	position: absolute;
@@ -365,37 +346,35 @@ filter: drop-shadow(5px 5px 5px var(--clr));
 }
 @keyframes fadeInRight {
 	from {
-	  opacity: 0;
-	  transform: translateY(-300px);
+		opacity: 0;
+		transform: translateY(-300px);
 	}
 	to {
-	  opacity: 1;
+		opacity: 1;
 	}
-  }
-  
-.hero_heading-cild{
+}
+.hero_heading-cild {
 	color: #FFD159;
 	font-family: lucku-dip;
 	font-weight: 400;
-    font-size: 200px;
+	font-size: 200px;
 }
-
-.brid-img{
+.brid-img {
 	width: 100px;
 	margin: auto;
 	display: block;
 }
-.preview-book{
+.preview-book {
 	width: 700px;
 	margin: auto;
 }
-.content-img{
+.content-img {
 	margin: auto;
 }
-.content-brid{
+.content-brid {
 	margin: auto;
 }
-.content-brid h3{
+.content-brid h3 {
 	font-size: 35px;
 	font-size: 35px;
 	color: #48b9e8;
@@ -403,12 +382,12 @@ filter: drop-shadow(5px 5px 5px var(--clr));
 	font-weight: 400;
 	padding-bottom: 25px;
 }
-.content-brid p{
+.content-brid p {
 	font-family: 'Poppins', sans-serif;
 	font-size: 17px;
 	color: #000000a1;
 }
-.content-brid button{
+.content-brid button {
 	background-color: #D20084;
 	padding: 9px 40px;
 	color: #FFD159;
@@ -419,22 +398,22 @@ filter: drop-shadow(5px 5px 5px var(--clr));
 	text-justify: inter-word;
 	border: none;
 }
-.price-card-sec{
+.price-card-sec {
 	margin: 30px;
 }
-.price-card1{
+.price-card1 {
 	text-align: center;
 	background: linear-gradient(0deg, #F0F7FF 70%, #fff0f000 50%);
 	padding: 30px;
 	margin: 65px;
 }
-.price-card2{
+.price-card2 {
 	text-align: center;
 	background: linear-gradient(0deg, #fcf2f8 70%, #fff0f000 50%);
 	padding: 30px;
 	margin: 65px;
 }
-.price-image1{
+.price-image1 {
 	background-image: url("../img/content/lazar-i-sofija.png");
 	width: 470px;
 	height: 438px;
@@ -443,7 +422,7 @@ filter: drop-shadow(5px 5px 5px var(--clr));
 	margin: 0 auto;
 	transition: ease-out 0.3s;
 }
-.price-image2{
+.price-image2 {
 	background-image: url("../img/content/nikola.png");
 	width: 470px;
 	height: 438px;
@@ -452,19 +431,19 @@ filter: drop-shadow(5px 5px 5px var(--clr));
 	margin: 0 auto;
 	transition: ease-out 0.3s;
 }
-.text-card h3{
+.text-card h3 {
 	color: #48b9e8;
 	font-weight: 300;
 	margin-top: 30px;
 }
-.text-card p{
+.text-card p {
 	margin-top: 40px;
 	text-align: justify;
 }
-.age-price{
+.age-price {
 	margin-top: 40px;
 }
-.age-price button{
+.age-price button {
 	background-color: #3EB6F1;
 	color: #fff;
 	padding: 5px 30px;
@@ -473,27 +452,24 @@ filter: drop-shadow(5px 5px 5px var(--clr));
 	float: left;
 	transition: ease-out 0.7s;
 }
-.age-price button:hover{
+.age-price button:hover {
 	box-shadow: inset 300px 0 0 0 #e41616;
 	;
 }
-.age-price p{
+.age-price p {
 	float: right;
 }
-.age-price span{
+.age-price span {
 	font-weight: bold;
 }
-
-.how-to{
+.how-to {
 	background-image: url("../img/content/pozadina.png");
 	background-repeat: no-repeat;
 	background-size: cover;
 	width: 100%;
 	height: 1150px;
 }
-
-
-.how-to h3{
+.how-to h3 {
 	font-size: 35px;
 	font-size: 35px;
 	color: #48b9e8;
@@ -504,68 +480,55 @@ filter: drop-shadow(5px 5px 5px var(--clr));
 	padding-top: 60px;
 	padding-bottom: 150px;
 }
-
-
-.book-group{
+.book-group {
 	text-align: center;
-	
-}
 
-.book-group img{
+}
+.book-group img {
 	width: 400px;
 	height: 400px;
 }
-
-.zmaj-pcele{
-	/* background-image: url("../img/content/zmaj-pcele.png");
-	background-repeat: no-repeat;
-	background-size: cover; */
+.zmaj-pcele {
 	width: 100%;
 	height: 762px;
 	object-fit: cover;
 }
-
-.means{
+.means {
 	margin-top: 40px;
 	text-align: center;
 	background-color: #f2f8ff;
 	background-image: url("../img/content/mala-sa-knjigom.png");
 	background-position-x: right;
-    background-repeat: no-repeat;
+	background-repeat: no-repeat;
 	height: 800px;
 }
-
-.means h3{
+.means h3 {
 	color: #434e7d;
 	font-size: 35px;
 	text-shadow: #abb3cb 1px 2px;
 	font-weight: 300;
 	padding-top: 30px;
 }
-.means p{
+.means p {
 	margin-top: 40px;
 }
-
-.footer{
+.footer {
 	background-image: url("../img/content/footer-bck.png");
-    background-size: cover;
-    background-repeat: no-repeat;
+	background-size: cover;
+	background-repeat: no-repeat;
 	height: 500px;
 	width: 100%;
 }
-
-.img-left{
+.img-left {
 	float: left;
 	margin-left: 100px;
-    margin-top: 100px;
+	margin-top: 100px;
 }
-
-.img-right{
+.img-right {
 	float: right;
 	margin-top: -50px;
 }
-
-.parallax{
+.parallax {
 	position: relative;
 	width: 100%;
 	height: 776px;
@@ -574,11 +537,10 @@ filter: drop-shadow(5px 5px 5px var(--clr));
 	justify-content: center;
 	align-items: center;
 }
-
-.parallax img{
+.parallax img {
 	position: absolute;
-    top: 120px;
-    left: 0;
+	top: 120px;
+	left: 0;
 	width: 100%;
 	height: 776px;
 	object-fit: cover;

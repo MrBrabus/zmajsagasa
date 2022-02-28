@@ -13,8 +13,7 @@ require_once('header.php');
 <body>
 	<section class="hero">
 		<h1 class="hero_heading">Personalizovane knjige<br>
-		<span class="hero_heading-cild">Za decu</span>
-	   </h1>
+		<span class="hero_heading-cild">Za decu</span></h1>
 		<div class="center_icon"><img alt="Personalizovane knjige za decu - Zmajsa Gasa - Zmaj" src="img/content/17.png"></div>
 	</section>
 	<section>
@@ -67,40 +66,33 @@ require_once('header.php');
 		</div>
 	</section>
 	<section class="how-to container-fluid">
-       <h3>Kako se personalizuje i poručuje knjiga?</h3>
-	   <div class="book-section row">
-		   <div class="book-group col">
-		       <img src="img/content/plocica1.png">
-		       <p>Korak 1</p>
-		   </div>
-		   <div class="book-group col">
-		       <img src="img/content/plocica2.png">
-		       <p>Korak 2</p>
-		   </div>
-		   <div class="book-group col">
-		       <img src="img/content/plocica3.png">
-		       <p>Korak 3</p>
-		   </div>
-		   <div class="book-group col">
-		       <img src="img/content/plocica4.png">
-		       <p>Korak 4</p>
-		   </div>
-	   </div>
+		<h3>Kako se personalizuje i poručuje knjiga?</h3>
+		<div class="book-section row">
+			<div class="book-group col">
+				<img src="img/content/plocica1.png">
+				<p>Korak 1</p>
+			</div>
+			<div class="book-group col">
+				<img src="img/content/plocica2.png">
+				<p>Korak 2</p>
+			</div>
+			<div class="book-group col">
+				<img src="img/content/plocica3.png">
+				<p>Korak 3</p>
+			</div>
+			<div class="book-group col">
+				<img src="img/content/plocica4.png">
+				<p>Korak 4</p>
+			</div>
+		</div>
 	</section>
 	<section class="parallax">
-      <img src="img/content/sec1/zmaj.png" data-speed="1.5" class="layer">
-	  <img src="img/content/sec1/leptir.png" data-speed="1" class="layer">
-	  <img src="img/content/sec1/pcela1.png" data-speed="2" class="layer">
-	  <img src="img/content/sec1/pcela2.png" data-speed="1.5" class="layer">
-	  <img src="img/content/sec1/pcela3.png" data-speed="0.5" class="layer">
-	  <img src="img/content/sec1/pcela4.png" data-speed="1" class="layer">
+		<img class="layer" data-speed="1.5" src="img/content/sec1/zmaj.png"> <img class="layer" data-speed="1" src="img/content/sec1/leptir.png"> <img class="layer" data-speed="2" src="img/content/sec1/pcela1.png"> <img class="layer" data-speed="1.5" src="img/content/sec1/pcela2.png"> <img class="layer" data-speed="0.5" src="img/content/sec1/pcela3.png"> <img class="layer" data-speed="1" src="img/content/sec1/pcela4.png">
 	</section>
 	<section class="means container-fluid">
-	    <h3>Značaj za male i velike?</h3>
+		<h3>Značaj za male i velike?</h3>
 		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>
-		Optio cupiditate dolor iusto maiores dignissimos odio deserunt, ratione laborum soluta eos.<br>	
-	</section>
-
-	<?php require_once('footer.php'); ?>
-
-
+		Optio cupiditate dolor iusto maiores dignissimos odio deserunt, ratione laborum soluta eos.<br></p>
+	</section><?php require_once('footer.php'); ?>
+</body>
+</html>
