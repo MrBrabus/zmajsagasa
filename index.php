@@ -8,7 +8,7 @@ require_once('header.php');
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title><?php $currentPage ?></title>
 </head>
 <body>
 	<section class="hero">
