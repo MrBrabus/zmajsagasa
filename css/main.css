@@ -4,29 +4,36 @@
 	font-family: 'lucku-dip';
 	src: URL('../font/LuckyDipCaitlin.ttf') format('truetype');
 }
+
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 	font-family: 'Poppins', sans-serif;
 }
+
 ::-webkit-scrollbar {
 	width: 10px;
 }
+
 ::-webkit-scrollbar-track {
 	background: #f1f1f1;
 }
+
 ::-webkit-scrollbar-thumb {
 	background: #888;
 }
+
 ::selection {
 	background: rgb(0, 123, 255, 0.3);
 }
+
 .content-main {
 	max-width: 1250px;
 	margin: auto;
 	padding: 0 30px;
 }
+
 .navbar-main {
 	position: fixed;
 	width: 100%;
@@ -34,6 +41,7 @@
 	padding: 25px 0;
 	transition: all 0.3s ease;
 }
+
 .navbar-main.sticky {
 	background: #1b1b1be0;
 	padding: 0;
@@ -42,32 +50,40 @@
 	margin: 0 auto;
 	box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.1);
 }
+
 .navbar-main.sticky img {
 	width: 100px;
 }
+
 .navbar-main.sticky li {
 	margin-top: 15px;
 }
+
 .navbar-main .content-main {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 }
+
 .logo-main img {
 	width: 170px;
 }
+
 .navbar-main .menu-list {
 	display: inline-flex;
 }
+
 .menu-list {
 	background-color: #00000017;
 	padding: 10px;
 	border-radius: 10px;
 	margin-left: 20px;
 }
+
 .menu-list li {
 	list-style: none;
 }
+
 .menu-list li a {
 	font-family: 'Poppins', sans-serif;
 	color: transparent;
@@ -80,6 +96,7 @@
 	-webkit-text-stroke: 1px rgba(255, 255, 255, 0.5);
 	position: relative;
 }
+
 .menu-list li a::before {
 	content: attr(data-text);
 	position: absolute;
@@ -90,21 +107,25 @@
 	border-right: 5px solid var(--clr);
 	-webkit-text-stroke: 1px var(--clr);
 }
+
 .menu-list li a:hover::before {
 	width: 100%;
 	filter: drop-shadow(5px 5px 5px var(--clr));
 }
+
 .icon-main {
 	color: #fff;
 	font-size: 20px;
 	cursor: pointer;
 	display: none;
 }
+
 .menu-list .cancel-btn-main {
 	position: absolute;
 	right: 30px;
 	top: 20px;
 }
+
 @media (max-width: 1950px) {
 	.hero {
 		background-image: url("../img/content/hero.png");
@@ -131,6 +152,7 @@
 		height: 390px;
 	}
 }
+
 @media (max-width: 1400px) {
 	.hero {
 		background-image: url("../img/content/hero.png");
@@ -189,17 +211,21 @@
 	}
 	.how-to {
 		height: 730px !important;
-	}}
+	}
+}
+
 @media (max-width: 1230px) {
 	.content-main {
 		padding: 0 60px;
 	}
 }
+
 @media (max-width: 1100px) {
 	.content-main {
 		padding: 0 40px;
 	}
 }
+
 @media (max-width: 900px) {
 	.content-main {
 		padding: 0 30px;
@@ -211,6 +237,7 @@
 		margin-left: 15% !important;
 	}
 }
+
 @media (max-width: 868px) {
 	body .disabled {
 		overflow: hidden;
@@ -327,13 +354,16 @@
 		width: 100%;
 	}
 }
+
 @media (max-width: 380px) {}
+
 .center_icon img {
 	width: 1300px;
 	margin-top: 300px;
 	position: absolute;
 	margin-left: 25%;
 }
+
 .hero_heading {
 	font-family: cardo, serif;
 	font-weight: 700;
@@ -344,6 +374,7 @@
 	padding-top: 497px;
 	animation: fadeInRight 2s ease-in;
 }
+
 @keyframes fadeInRight {
 	from {
 		opacity: 0;
@@ -353,27 +384,33 @@
 		opacity: 1;
 	}
 }
+
 .hero_heading-cild {
 	color: #FFD159;
 	font-family: lucku-dip;
 	font-weight: 400;
 	font-size: 200px;
 }
+
 .brid-img {
 	width: 100px;
 	margin: auto;
 	display: block;
 }
+
 .preview-book {
 	width: 700px;
 	margin: auto;
 }
+
 .content-img {
 	margin: auto;
 }
+
 .content-brid {
 	margin: auto;
 }
+
 .content-brid h3 {
 	font-size: 35px;
 	font-size: 35px;
@@ -382,11 +419,13 @@
 	font-weight: 400;
 	padding-bottom: 25px;
 }
+
 .content-brid p {
 	font-family: 'Poppins', sans-serif;
 	font-size: 17px;
 	color: #000000a1;
 }
+
 .content-brid button {
 	background-color: #D20084;
 	padding: 9px 40px;
@@ -398,21 +437,25 @@
 	text-justify: inter-word;
 	border: none;
 }
+
 .price-card-sec {
 	margin: 30px;
 }
+
 .price-card1 {
 	text-align: center;
 	background: linear-gradient(0deg, #F0F7FF 70%, #fff0f000 50%);
 	padding: 30px;
 	margin: 65px;
 }
+
 .price-card2 {
 	text-align: center;
 	background: linear-gradient(0deg, #fcf2f8 70%, #fff0f000 50%);
 	padding: 30px;
 	margin: 65px;
 }
+
 .price-image1 {
 	background-image: url("../img/content/lazar-i-sofija.png");
 	width: 470px;
@@ -422,6 +465,7 @@
 	margin: 0 auto;
 	transition: ease-out 0.3s;
 }
+
 .price-image2 {
 	background-image: url("../img/content/nikola.png");
 	width: 470px;
@@ -431,18 +475,22 @@
 	margin: 0 auto;
 	transition: ease-out 0.3s;
 }
+
 .text-card h3 {
 	color: #48b9e8;
 	font-weight: 300;
 	margin-top: 30px;
 }
+
 .text-card p {
 	margin-top: 40px;
 	text-align: justify;
 }
+
 .age-price {
 	margin-top: 40px;
 }
+
 .age-price button {
 	background-color: #3EB6F1;
 	color: #fff;
@@ -452,16 +500,20 @@
 	float: left;
 	transition: ease-out 0.7s;
 }
+
 .age-price button:hover {
 	box-shadow: inset 300px 0 0 0 #e41616;
 	;
 }
+
 .age-price p {
 	float: right;
 }
+
 .age-price span {
 	font-weight: bold;
 }
+
 .how-to {
 	background-image: url("../img/content/pozadina.png");
 	background-repeat: no-repeat;
@@ -469,6 +521,7 @@
 	width: 100%;
 	height: 1150px;
 }
+
 .how-to h3 {
 	font-size: 35px;
 	font-size: 35px;
@@ -480,19 +533,23 @@
 	padding-top: 60px;
 	padding-bottom: 150px;
 }
+
 .book-group {
 	text-align: center;
-
+	
 }
+
 .book-group img {
 	width: 400px;
 	height: 400px;
 }
+
 .zmaj-pcele {
 	width: 100%;
 	height: 762px;
 	object-fit: cover;
 }
+
 .means {
 	margin-top: 40px;
 	text-align: center;
@@ -502,6 +559,7 @@
 	background-repeat: no-repeat;
 	height: 800px;
 }
+
 .means h3 {
 	color: #434e7d;
 	font-size: 35px;
@@ -509,9 +567,11 @@
 	font-weight: 300;
 	padding-top: 30px;
 }
+
 .means p {
 	margin-top: 40px;
 }
+
 .footer {
 	background-image: url("../img/content/footer-bck.png");
 	background-size: cover;
@@ -519,15 +579,18 @@
 	height: 500px;
 	width: 100%;
 }
+
 .img-left {
 	float: left;
 	margin-left: 100px;
 	margin-top: 100px;
 }
+
 .img-right {
 	float: right;
 	margin-top: -50px;
 }
+
 .parallax {
 	position: relative;
 	width: 100%;
@@ -537,6 +600,7 @@
 	justify-content: center;
 	align-items: center;
 }
+
 .parallax img {
 	position: absolute;
 	top: 120px;
