@@ -5,12 +5,6 @@ $keywords = "Knjige za decu, Personalizovane knjige, Personalizovane knjige za d
 require_once('head.php');
 require_once('header.php'); 
 ?>
-<!DOCTYPE html>
-<html>
-<head>
-	<title><?php $currentPage ?></title>
-</head>
-<body>
 	<section class="hero">
 		<h1 class="hero_heading">Personalizovane knjige<br>
 		<span class="hero_heading-cild">Za decu</span></h1>
@@ -94,5 +88,3 @@ require_once('header.php');
 		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>
 		Optio cupiditate dolor iusto maiores dignissimos odio deserunt, ratione laborum soluta eos.<br></p>
 	</section><?php require_once('footer.php'); ?>
-</body>
-</html>
