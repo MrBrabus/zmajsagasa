@@ -29,7 +29,7 @@
 }
 
 .content-main {
-	max-width: 1250px;
+	max-width: 80%;
 	margin: auto;
 	padding: 0 30px;
 }
@@ -58,6 +58,7 @@
 .navbar-main.sticky li {
 	margin-top: 15px;
 }
+
 
 .navbar-main .content-main {
 	display: flex;
@@ -160,6 +161,10 @@
 		width: 100%;
 		background-repeat: no-repeat;
 		background-size: cover;
+	}
+	.content-main{
+		max-width: 100%;
+		margin: 0 20px;
 	}
 	.dragon-fire {
 		background-image: url("../img/content/section2.png");
@@ -608,4 +613,29 @@
 	width: 100%;
 	height: 776px;
 	object-fit: cover;
+}
+
+.shopping-cart{
+	font-size:25px;
+    color: #fff;
+	padding-left: 20px;
+	transition: 0.2s ease;
+}
+
+.shopping-cart:hover{
+	font-size:30px;
+}
+
+.lang{
+	position: relative;
+	display: flex;
+}
+.lang a{
+	color: #fff;
+	font-size: 15px !important;
+
+}
+
+.line{
+	color: #fff;
 }
