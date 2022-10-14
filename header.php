@@ -14,7 +14,7 @@
         <li style="--clr:#00dc82" class="<?php echo (basename($_SERVER['PHP_SELF']) == "faq.php") ? "active" : "" ?>"><a href="faq.php" data-text="&nbsp;NAJČEŠĆA&nbsp;PITANJA">&nbsp;NAJČEŠĆA&nbsp;PITANJA&nbsp;</a></li>
         <li style="--clr:#ff9901" class="<?php echo (basename($_SERVER['PHP_SELF']) == "contact.php") ? "active" : "" ?>"><a href="contact.php" data-text="&nbsp;KONTAKT">&nbsp;KONTAKT&nbsp;</a></li>
         <li><i class="fa fa-shopping-cart shopping-cart"></i></li>
-        <li class="lang"><span><a href="index.php">LAT</a></span><span class="line"> | </span><span><a href="index-crl.php">ЋИР</a></span></li>
+        <li class="lang"><span><a href="index.php">LAT</a></span><span><a href="index-crl.php">ЋИР</a></span></li>
       </ul>
 
       <div class="icon-main menu-btn-main">

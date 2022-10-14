@@ -26,3 +26,33 @@ function parallax(e) {
 		layer.style.transform = `translateX(${x}px) translateY(${y}px)`
 	});
 }
+
+const wrapper = document.querySelector('.wrapper');
+const indicators = document.querySelectorAll('.indicators button');
+
+let currentTestimonial = 0;
+indicators.forEach((item, i) => {
+	item.addEventListener('click', () => {
+		indicators[currentTestimonial].classList.remove('active');
+		wrapper.style.marginLeft=`-${70 * i}%`;
+		item.classList.add('active');
+		currentTestimonial = i;
+	})
+})
+
+// var swiper = new Swiper(".mySwiper", {
+//         effect: "coverflow",
+//         grabCursor: true,
+//         centeredSlides: true,
+//         slidesPerView: "auto",
+//         coverflowEffect: {
+//           rotate: 50,
+//           stretch: 0,
+//           depth: 100,
+//           modifier: 1,
+//           slideShadows: true,
+//         },
+//         pagination: {
+//           el: ".swiper-pagination",
+//         },
+//       });
