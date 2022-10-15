@@ -13,7 +13,7 @@
         <li style="--clr:#ffdd1c" class="<?php echo (basename($_SERVER['PHP_SELF']) == "choose.php") ? "active" : "" ?>"><a href="choose.php" data-text="&nbsp;IZABERI&nbsp;KNJIGU">&nbsp;IZABERI&nbsp;KNJIGU&nbsp;</a></li>
         <li style="--clr:#00dc82" class="<?php echo (basename($_SERVER['PHP_SELF']) == "faq.php") ? "active" : "" ?>"><a href="faq.php" data-text="&nbsp;NAJČEŠĆA&nbsp;PITANJA">&nbsp;NAJČEŠĆA&nbsp;PITANJA&nbsp;</a></li>
         <li style="--clr:#ff9901" class="<?php echo (basename($_SERVER['PHP_SELF']) == "contact.php") ? "active" : "" ?>"><a href="contact.php" data-text="&nbsp;KONTAKT">&nbsp;KONTAKT&nbsp;</a></li>
-        <li><i class="fa fa-shopping-cart shopping-cart"></i></li>
+        <li><i class="fa-regular fa-cart-shopping-fast"></i></li>
         <li class="lang"><span><a href="index.php">LAT</a></span><span><a href="index-crl.php">ЋИР</a></span></li>
       </ul>
 

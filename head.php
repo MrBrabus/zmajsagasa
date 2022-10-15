@@ -10,10 +10,10 @@
     <meta name="description" content="<?php echo $description ?>">
     <meta name="keywords" content="<?php echo $keywords ?>">
     <meta name="author" content="MrBrabus">
-    <link rel="stylesheet" href="https://use.typekit.net/thf2ewz.css">
+    <!-- <link rel="stylesheet" href="https://use.typekit.net/thf2ewz.css"> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
     <link rel="stylesheet" href="css/main.css">
-    <!-- <link rel="stylesheet" href="css/media.css"> -->
+    <link rel="stylesheet" href="css/media.css">
     <link rel="stylesheet" href="css/jquery.flipster.min.css">
     <script src="https://kit.fontawesome.com/3766b7d9c2.js" crossorigin="anonymous"></script>
 

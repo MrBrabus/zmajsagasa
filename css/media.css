@@ -1,4 +1,4 @@
-/* @media (max-width: 1400px) {
+@media (max-width: 1400px) {
     .hero {
 		background-image: url("../img/content/hero.png");
 		height: 1050px;
@@ -99,4 +99,4 @@
 	.navbar-main.show .menu-list li a {
 		margin-left: 0px;
 	}
-} */
+}
